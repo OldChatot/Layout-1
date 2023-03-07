@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display:grid;
+    grid-template-rows: 500px 250px 250px 100px 400px;
+    grid-template-columns: 25% 25% 20% 5% 10% 1fr;
+    margin:2em 0;
+    gap:1.5em;
+}
+.grid span{
+    border:1px solid blue;
+}
+header span{
+    margin-left: 1.5em;
+}
+.cajas1{
+    grid-column:span 6;
+}
+.cajas2{
+    grid-column:span 2;
+}
+.cajas3{
+    grid-column:span 3;
+}
+.cajas4{
+    grid-row:span 2;
+}
+footer{
+    margin:2em 0 0;
+}
